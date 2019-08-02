@@ -30,4 +30,4 @@ Temporary Items
 .gitignore
 .idea/
 Desktop.iml
-src/
+out/
