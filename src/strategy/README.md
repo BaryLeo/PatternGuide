@@ -2,7 +2,7 @@
 
 首先，结合代码，看类图
 
-![1564756300320](C:\Users\Leo\AppData\Roaming\Typora\typora-user-images\1564756300320.png)
+ ![类图关系](https://github.com/BaryLeo/PatternGuide/blob/master/src/strategy/p.png)
 
 首先，Duck对象，有着两类行为，就是飞行，已经叫，但是如何飞，如何叫，各类鸭子各种不同。首先，把两类行为拆分出来，作为接口，每个接口对应的一族算法。接口，其实可以理解为一种标签，将一群算法，变成不同的集群。
 
