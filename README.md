@@ -2,5 +2,5 @@
 
 # 目录
 
-1 . 策略模式（Strategy Pattern）
+1 . 策略模式（Strategy Pattern）  -------  设计模式原则：多用组合（接口），少用继承
 
