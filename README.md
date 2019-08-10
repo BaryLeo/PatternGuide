@@ -18,6 +18,10 @@
 
 1 . 策略模式（Strategy Pattern） 
 
-2 . 观察者模式(Observer Pattern)
+2 . 观察者模式（Observer Pattern）
 
-3 . 装饰者模式(Decorator Pattern)
+3 . 装饰者模式（Decorator Pattern）
+
+4 . 工厂模式（Factory Pattern）
+
+5 . 抽象工厂模式（Abstract Factory Pattern）,请先阅读工厂模式
