@@ -11,7 +11,7 @@ import strategy.*;
 public class Main {
 
     public static void main(String[] args) {
-        int key = 3;
+        int key = 4;
         switch (key){
             case 0:{
                 //策略模式

@@ -16,6 +16,8 @@
 
 6、依赖抽象，不要依赖具体类
 
+7、依赖倒置原则：底层模块依赖高层模块，而非高层模块依赖低层模块，移除低层模块后高层模块仍能正常工作，只是少了部分功能
+
 # 目录
 
 1 . 策略模式（Strategy Pattern） 
@@ -27,3 +29,5 @@
 4 . 工厂模式（Factory Pattern）
 
 5 . 抽象工厂模式（Abstract Factory Pattern）,请先阅读工厂模式
+
+6 . 单例模式（Singleton Pattern）
