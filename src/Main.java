@@ -1,3 +1,7 @@
+import decorator.Component;
+import decorator.ComponentA;
+import decorator.ComponentAB;
+import decorator.ComponentB;
 import observer.DataObserver;
 import observer.WeatherData;
 import strategy.CanFly;
@@ -8,7 +12,7 @@ import strategy.Duck;
 public class Main {
 
     public static void main(String[] args) {
-        int key = 1;
+        int key = 2;
         switch (key){
             case 0:{
                 //策略模式
@@ -25,6 +29,17 @@ public class Main {
                 for (int i = 0;i<5;i++){
                     weatherData.setTemperature(i);
                 }
+            }
+            case 2:{
+                //修饰者模式
+                Component component = new Component();
+                component.toString();
+                ComponentA componentA = new ComponentA(component);
+                ComponentB componentB = new ComponentB(component);
+                ComponentAB componentAB = new ComponentAB(componentB);
+                componentA.toString();
+                componentB.toString();
+                componentAB.toString();
             }
         }
     }
