@@ -1,8 +1,10 @@
 import abstractfactory.*;
+import adapter.AdapterPatternDemo;
 import decorator.*;
 import factory.Animal;
 import factory.AnimalFactory;
 import factory.FactoryPatternDemo;
+import iterator.IteratorPatternDemo;
 import observer.DataObserver;
 import observer.ObserverPatternDemo;
 import observer.WeatherData;
@@ -11,7 +13,7 @@ import strategy.*;
 public class Main {
 
     public static void main(String[] args) {
-        int key = 4;
+        int key = 6;
         switch (key){
             case 0:{
                 //策略模式
@@ -43,6 +45,22 @@ public class Main {
                  */
                 AbstractFactoryPatternDemo abstractFactoryPatternDemo = new AbstractFactoryPatternDemo();
                 abstractFactoryPatternDemo.runDemo();
+                break;
+            }
+            case 5:{
+                System.out.println("在singleton中，有详细介绍四种创建单例的模式");
+                break;
+            }
+            case 6:{
+                //适配器模式
+                AdapterPatternDemo adapterPatternDemo = new AdapterPatternDemo();
+                adapterPatternDemo.runDemo();
+                break;
+            }
+            case 7:{
+                //迭代器模式
+                IteratorPatternDemo iteratorPatternDemo = new IteratorPatternDemo();
+                iteratorPatternDemo.runDemo();
                 break;
             }
         }
