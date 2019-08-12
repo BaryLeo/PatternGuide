@@ -49,3 +49,9 @@
 11 . 外观模式（Facade Pattern）
 
 12 . 模板模式（Template Pattern）
+
+13 . 状态模式（State Pattern）
+
+14 . 代理模式（Proxy Pattern）
+
+15 . MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式

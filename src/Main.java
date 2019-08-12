@@ -11,7 +11,10 @@ import iterator.IteratorPatternDemo;
 import observer.DataObserver;
 import observer.ObserverPatternDemo;
 import observer.WeatherData;
+import proxy.ProxyPatternDemo;
+import state.StatePatternDemo;
 import strategy.*;
+import template.TemplatePatternDemo;
 
 public class Main {
 
@@ -85,22 +88,25 @@ public class Main {
                 break;
             }
             case 11:{
-                //模式
-
+                //模板模式
+                TemplatePatternDemo templatePatternDemo = new TemplatePatternDemo();
+                templatePatternDemo.runDemo();
                 break;
             }
             case 12:{
-                //模式
-
+                //状态模式
+                StatePatternDemo statePatternDemo = new StatePatternDemo();
+                statePatternDemo.runDemo();
                 break;
             }
             case 13:{
-                //模式
-
+                //代理模式
+                ProxyPatternDemo proxyPatternDemo = new ProxyPatternDemo();
+                proxyPatternDemo.runDemo();
                 break;
             }
             case 14:{
-                //模式
+                //MVC模式
 
                 break;
             }
