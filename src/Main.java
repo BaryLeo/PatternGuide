@@ -8,6 +8,7 @@ import factory.Animal;
 import factory.AnimalFactory;
 import factory.FactoryPatternDemo;
 import iterator.IteratorPatternDemo;
+import mvc.MVCPatternDemo;
 import observer.DataObserver;
 import observer.ObserverPatternDemo;
 import observer.WeatherData;
@@ -107,7 +108,8 @@ public class Main {
             }
             case 14:{
                 //MVC模式
-
+                MVCPatternDemo mvcPatternDemo = new MVCPatternDemo();
+                mvcPatternDemo.runDemo();
                 break;
             }
         }
