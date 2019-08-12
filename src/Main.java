@@ -1,5 +1,7 @@
 import abstractfactory.*;
 import adapter.AdapterPatternDemo;
+import command.CommandPatternDemo;
+import composite.CompositePatternDemo;
 import decorator.*;
 import factory.Animal;
 import factory.AnimalFactory;
@@ -13,7 +15,7 @@ import strategy.*;
 public class Main {
 
     public static void main(String[] args) {
-        int key = 6;
+        int key = 10;
         switch (key){
             case 0:{
                 //策略模式
@@ -61,6 +63,43 @@ public class Main {
                 //迭代器模式
                 IteratorPatternDemo iteratorPatternDemo = new IteratorPatternDemo();
                 iteratorPatternDemo.runDemo();
+                break;
+            }
+            case 8:{
+                //命令模式
+                CommandPatternDemo commandPatternDemo = new CommandPatternDemo();
+                commandPatternDemo.runDemo();
+                break;
+            }
+            case 9:{
+                //组合模式
+                CompositePatternDemo compositePatternDemo = new CompositePatternDemo();
+                compositePatternDemo.runDemo();
+                break;
+            }
+            case 10:{
+                //模式
+
+                break;
+            }
+            case 11:{
+                //模式
+
+                break;
+            }
+            case 12:{
+                //模式
+
+                break;
+            }
+            case 13:{
+                //模式
+
+                break;
+            }
+            case 14:{
+                //模式
+
                 break;
             }
         }

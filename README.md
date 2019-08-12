@@ -43,3 +43,5 @@
 8 . 迭代器模式（Iterator Pattern）
 
 9 . 命令模式（Command Pattern）
+
+10 . 组合模式（Composite Pattern）
