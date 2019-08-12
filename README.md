@@ -41,3 +41,5 @@
 7 . 适配器模式（Adapter Pattern）
 
 8 . 迭代器模式（Iterator Pattern）
+
+9 . 命令模式（Command Pattern）
