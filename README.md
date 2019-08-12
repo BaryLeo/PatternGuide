@@ -47,3 +47,5 @@
 10 . 组合模式（Composite Pattern）
 
 11 . 外观模式（Facade Pattern）
+
+12 . 模板模式（Template Pattern）
