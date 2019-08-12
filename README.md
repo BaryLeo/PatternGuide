@@ -45,3 +45,5 @@
 9 . 命令模式（Command Pattern）
 
 10 . 组合模式（Composite Pattern）
+
+11 . 外观模式（Facade Pattern）

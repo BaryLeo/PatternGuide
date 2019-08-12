@@ -3,6 +3,7 @@ import adapter.AdapterPatternDemo;
 import command.CommandPatternDemo;
 import composite.CompositePatternDemo;
 import decorator.*;
+import facade.FacadePatternDemo;
 import factory.Animal;
 import factory.AnimalFactory;
 import factory.FactoryPatternDemo;
@@ -78,8 +79,9 @@ public class Main {
                 break;
             }
             case 10:{
-                //模式
-
+                //外观模式
+                FacadePatternDemo facadePatternDemo = new FacadePatternDemo();
+                facadePatternDemo.runDemo();
                 break;
             }
             case 11:{
